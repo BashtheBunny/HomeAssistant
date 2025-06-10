@@ -1,0 +1,458 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "created_at": "2024-10-07T19:51:36.461674+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "sun",
+        "entry_id": "01J9M8K1RDQHP8S9T9ZTCFPMP2",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T19:51:36.461676+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "title": "Sun",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T19:51:36.556713+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "bluetooth",
+        "entry_id": "01J9M8K1VCT1FNGKQR8H087PYQ",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T19:51:36.556717+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "title": "Intel Corporate None (10:A5:1D:85:9B:38)",
+        "unique_id": "10:A5:1D:85:9B:38",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T19:54:37.254256+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "shopping_list",
+        "entry_id": "01J9M8RJA6GZ44XSSKV71S5G00",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T19:54:37.254257+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T19:54:37.259577+00:00",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "google_translate",
+        "entry_id": "01J9M8RJABV2A6B8VCZ2GES24R",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T19:54:37.259579+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Google Translate text-to-speech",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T19:54:37.317970+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "radio_browser",
+        "entry_id": "01J9M8RJC55Y3FB9130MXAK04W",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T19:54:37.317972+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Radio Browser",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T19:54:37.325535+00:00",
+        "data": {
+          "track_home": true
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "met",
+        "entry_id": "01J9M8RJCDKNRRKT7MNP0FH2FA",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T19:54:37.325537+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Home",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T19:54:46.066977+00:00",
+        "data": {
+          "device_id": "D853CB04-AC33-42AE-803E-88237CECAE6C",
+          "os_version": "19.0",
+          "app_version": "2025.5 (2025.1264)",
+          "app_name": "Home Assistant",
+          "os_name": "iOS",
+          "app_id": "io.robbie.HomeAssistant",
+          "device_name": "Hyperion",
+          "manufacturer": "Apple",
+          "model": "iPhone16,2",
+          "supports_encryption": true,
+          "app_data": {
+            "push_token": "ftTIGWK_60OVh6Oe_jE0g6:APA91bGWGDDpACLFywn0fYetQ3Vrqpbyno3p4aBm7hUh_rztORrnaJbnT5DkGTtVWVb8FMcII_rLLlNB4hLqtHUROYWarXwRh8mTqs4T5iFKSoSPZasQdiP21T6xUC32H9ERHfrn_mhI",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "webhook_id": "7ed9943931df795664a7e1431f121e60125b5fd82e98a1fae135aa72395923f9",
+          "secret": "486d00218e768a44a1bb8eb01e99fb8a2f39107e95fa7ae31340575ebf8fa5f4",
+          "user_id": "58cebce18e7f415eb826fb51d818d8a1",
+          "no_legacy_encryption": true
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J9M8RTXJWNV245TYTTBQ0C6R",
+        "minor_version": 1,
+        "modified_at": "2025-06-10T07:28:56.804238+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "Hyperion",
+        "unique_id": "io.robbie.HomeAssistant-D853CB04-AC33-42AE-803E-88237CECAE6C",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T19:55:52.153256+00:00",
+        "data": {
+          "app_data": {
+            "push_token": "fzaxsq80GEO2lOr8N3bhJS:APA91bFobJc-_w1mtSoTIhg42Ue8P2tlDUur7bwm9o7Cl2cSDmtoU5MFTpioVIHbN_gzaAYd_4iXb_7B2dQV3GHSbrq6Q1-bDEQMhgjfi6WBPhRnmin5I0RndeDEnQyYWFPjMGhh1rRx",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "device_id": "270E59C2-FAE3-5769-8DFE-550D12A8551C",
+          "device_name": "Helios",
+          "os_version": "15.1.1",
+          "app_version": "2024.9.2 (2024.881)",
+          "app_name": "Home Assistant",
+          "supports_encryption": true,
+          "os_name": "macOS",
+          "manufacturer": "Apple",
+          "model": "Mac14,2",
+          "app_id": "io.robbie.HomeAssistant",
+          "webhook_id": "4ae922eb466785f314be31c90eb020cef89f725303955e206026e70fd625a828",
+          "secret": "735f4cdc2edbb471534f3fb4f6e59ebe2e686aa977ccb587f161cb82bcb760ab",
+          "user_id": "58cebce18e7f415eb826fb51d818d8a1",
+          "no_legacy_encryption": true
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J9M8TVES76TP9HC55MA0HJHE",
+        "minor_version": 1,
+        "modified_at": "2024-12-01T22:08:57.553446+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "Helios",
+        "unique_id": "io.robbie.HomeAssistant-270E59C2-FAE3-5769-8DFE-550D12A8551C",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T20:23:36.120200+00:00",
+        "data": {
+          "udn": "uuid:cafd7cdf-2840-4451-82dd-49257a10801d",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:4af92072-3d15-4ffa-8dad-3277a449292c",
+          "location": "http://192.168.0.1:1900/zirnf/rootDesc.xml",
+          "mac_address": "5c:62:8b:fb:91:91",
+          "host": "192.168.0.1"
+        },
+        "discovery_keys": {
+          "ssdp": [
+            {
+              "domain": "ssdp",
+              "key": "uuid:825c2c30-f080-4bd9-b462-09426182e078",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:b057f2d3-4a51-4e11-b970-c7229c2ed2c4",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:187d6867-64bd-4700-80f8-0510745101bf",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:1ba57c56-7f9e-4788-b6e6-e6ee9bf836f2",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:1e7d1e80-d0e9-4968-ba7e-e3e60a0288e9",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:849426fd-95a0-494d-9620-d5fed816734a",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:c942d2e1-3ae3-4ff9-98b4-1fa6dea5a9cd",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:4559684c-46c6-41b8-a837-0ab59c48b2f9",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:05dac2b6-d6f3-466e-9948-befa12c45109",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:cafd7cdf-2840-4451-82dd-49257a10801d",
+              "version": 1
+            }
+          ]
+        },
+        "disabled_by": null,
+        "domain": "upnp",
+        "entry_id": "01J9MADMDRVYD4TXDBBHWJTFWP",
+        "minor_version": 1,
+        "modified_at": "2025-06-09T20:01:56.704803+00:00",
+        "options": {
+          "force_poll": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "title": "Archer AX1800",
+        "unique_id": "uuid:cafd7cdf-2840-4451-82dd-49257a10801d::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T20:23:44.649704+00:00",
+        "data": {
+          "name": "Office",
+          "credentials": {
+            "3": null,
+            "5": null
+          },
+          "address": "192.168.0.101",
+          "identifiers": [
+            "D4:A3:3D:7E:23:10",
+            "D4A33D7E2310"
+          ]
+        },
+        "discovery_keys": {
+          "zeroconf": [
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_airplay._tcp.local.",
+                "Office._airplay._tcp.local."
+              ],
+              "version": 1
+            },
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_raop._tcp.local.",
+                "D4A33D7E2310@Office._raop._tcp.local."
+              ],
+              "version": 1
+            }
+          ]
+        },
+        "disabled_by": null,
+        "domain": "apple_tv",
+        "entry_id": "01J9MADWR96TACKSRFPPMDXV7W",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T20:39:05.462601+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "Office",
+        "unique_id": "D4:A3:3D:7E:23:10",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T20:28:55.080123+00:00",
+        "data": {
+          "name": "HASS Bridge",
+          "exclude_accessory_mode": true,
+          "port": 21064
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "homekit",
+        "entry_id": "01J9MAQBX8VCDH7NYK6K60CM6X",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T20:28:55.084621+00:00",
+        "options": {
+          "filter": {
+            "include_domains": [
+              "alarm_control_panel",
+              "climate",
+              "cover",
+              "humidifier",
+              "fan",
+              "light",
+              "lock",
+              "media_player",
+              "remote",
+              "switch",
+              "vacuum",
+              "water_heater"
+            ],
+            "include_entities": [],
+            "exclude_domains": [],
+            "exclude_entities": []
+          },
+          "mode": "bridge"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "HASS Bridge:21064",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T20:36:32.979905+00:00",
+        "data": {
+          "udn": "uuid:ec7d40a9-7df9-4ca4-81b7-c9e6ad5d6b1f",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:14878458-c026-43dd-a137-bc437f9c3ebf",
+          "location": "http://192.168.1.254:53702/33566985/rootDesc.xml",
+          "mac_address": null,
+          "host": "192.168.1.254"
+        },
+        "discovery_keys": {
+          "ssdp": [
+            {
+              "domain": "ssdp",
+              "key": "uuid:5d8e2093-5e08-410f-9760-11d7e0f51943",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:37840f54-4bab-4f82-8176-68b91e0fac11",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:c7e26fc1-96f9-4456-8c85-7d76ca79353f",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:5a310b6c-720a-40ae-9f79-ba4774af6652",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:0cc1b431-2e41-4473-b99a-850f3ea008ec",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:fa110d67-22d9-4ed6-b174-8773b7e582a1",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:8fde90d3-dbe2-424a-a8f9-316e55a367d2",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:6c87da61-906b-4ae9-b9a5-86a2c3eff20f",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:33566985-f896-49d2-b6af-3955b254dcd3",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:ec7d40a9-7df9-4ca4-81b7-c9e6ad5d6b1f",
+              "version": 1
+            }
+          ]
+        },
+        "disabled_by": null,
+        "domain": "upnp",
+        "entry_id": "01J9MB5B2KHNY120V5B3DY2RM8",
+        "minor_version": 1,
+        "modified_at": "2025-06-10T21:04:24.392385+00:00",
+        "options": {
+          "force_poll": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "title": "BT HomeHub6DX",
+        "unique_id": "uuid:ec7d40a9-7df9-4ca4-81b7-c9e6ad5d6b1f::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-07T20:55:55.986156+00:00",
+        "data": {
+          "username": "finleywright04@outlook.com",
+          "password": "Br1diewright1977",
+          "with_family": false,
+          "max_interval": 30,
+          "gps_accuracy_threshold": 500
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "icloud",
+        "entry_id": "01J9MC8TTJ7HE0QX2FN3YR3WXT",
+        "minor_version": 1,
+        "modified_at": "2024-10-07T20:55:55.986158+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "finleywright04@outlook.com",
+        "unique_id": "finleywright04@outlook.com",
+        "version": 1
+      }
+    ]
+  }
+}

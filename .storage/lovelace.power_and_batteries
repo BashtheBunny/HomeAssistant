@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.power_and_batteries",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "badges": [
+            {
+              "type": "entity",
+              "entity": "device_tracker.finleys_apple_watch"
+            },
+            {
+              "type": "entity",
+              "entity": "sensor.finleys_apple_watch_battery"
+            },
+            {
+              "type": "entity",
+              "entity": "device_tracker.helios_2"
+            },
+            {
+              "type": "entity",
+              "entity": "sensor.hyperion_battery_level"
+            },
+            {
+              "type": "entity",
+              "entity": "sensor.hyperion_battery_state"
+            },
+            {
+              "type": "entity",
+              "entity": "sensor.hyperion_battery"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

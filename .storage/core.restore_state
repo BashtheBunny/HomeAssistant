@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.fin","state":"home","attributes":{"editable":true,"id":"fin","device_trackers":["device_tracker.hyperion","device_tracker.helios"],"latitude":53.6061642725285,"longitude":-2.4322396200468233,"gps_accuracy":35,"source":"device_tracker.helios","user_id":"58cebce18e7f415eb826fb51d818d8a1","friendly_name":"Fin"},"last_changed":"2025-06-10T20:53:13.324268+00:00","last_reported":"2025-06-10T20:53:26.126275+00:00","last_updated":"2025-06-10T20:53:26.126275+00:00","context":{"id":"01JXDSX2FEX5QMJGCF7JHSCSMH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-06-10T20:53:15.837859+00:00","last_reported":"2025-06-10T20:53:15.837859+00:00","last_updated":"2025-06-10T20:53:15.837859+00:00","context":{"id":"01JXDSWRDXMW0VRESRX89DDJC4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-06-10T20:53:17.573851+00:00","last_reported":"2025-06-10T20:53:17.573851+00:00","last_updated":"2025-06-10T20:53:17.573851+00:00","context":{"id":"01JXDSWT4552WVZM1YXDG68H81","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.hyperion_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Hyperion Focus"},"last_changed":"2025-06-10T20:53:17.637464+00:00","last_reported":"2025-06-10T20:53:17.637464+00:00","last_updated":"2025-06-10T20:53:17.637464+00:00","context":{"id":"01JXDSWT65T0575WRMQXQZC7CF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.hyperion","state":"unknown","attributes":{"source_type":"gps","friendly_name":"Hyperion"},"last_changed":"2025-06-10T20:53:17.638960+00:00","last_reported":"2025-06-10T20:53:17.638960+00:00","last_updated":"2025-06-10T20:53:17.638960+00:00","context":{"id":"01JXDSWT66T1FNGKQR8H087PYQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_bssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"Hyperion BSSID"},"last_changed":"2025-06-10T20:53:17.639982+00:00","last_reported":"2025-06-10T20:53:17.639982+00:00","last_updated":"2025-06-10T20:53:17.639982+00:00","context":{"id":"01JXDSWT67ESTMMEBRAA8EAYAD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_battery_level","state":"55","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-50","friendly_name":"Hyperion Battery Level"},"last_changed":"2025-06-10T20:53:17.640277+00:00","last_reported":"2025-06-10T20:53:17.640277+00:00","last_updated":"2025-06-10T20:53:17.640277+00:00","context":{"id":"01JXDSWT68D1MKFXJZTTKZ8CRX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 55,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Hyperion Connection Type"},"last_changed":"2025-06-10T20:53:17.640507+00:00","last_reported":"2025-06-10T20:53:17.640507+00:00","last_updated":"2025-06-10T20:53:17.640507+00:00","context":{"id":"01JXDSWT68YQYGEW4GJRSVXB9E","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-50","friendly_name":"Hyperion Battery State"},"last_changed":"2025-06-10T20:53:17.645064+00:00","last_reported":"2025-06-10T20:53:17.645064+00:00","last_updated":"2025-06-10T20:53:17.645064+00:00","context":{"id":"01JXDSWT6DTGMAQR7JA56HTP0P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Hyperion SIM 2"},"last_changed":"2025-06-10T20:53:17.645368+00:00","last_reported":"2025-06-10T20:53:17.645368+00:00","last_updated":"2025-06-10T20:53:17.645368+00:00","context":{"id":"01JXDSWT6DS7145QXRPASE6TKG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"5G Non-Standalone","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Hyperion SIM 1"},"last_changed":"2025-06-10T20:53:17.645606+00:00","last_reported":"2025-06-10T20:53:17.645606+00:00","last_updated":"2025-06-10T20:53:17.645606+00:00","context":{"id":"01JXDSWT6DD417XC4YJTG8QJWB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_storage","state":"29.91","attributes":{"Available":"269.02 GB","Available (Important)":"370.75 GB","Available (Opportunistic)":"305.77 GB","Total":"1,022.44 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Hyperion Storage"},"last_changed":"2025-06-10T20:53:17.645833+00:00","last_reported":"2025-06-10T20:53:17.645833+00:00","last_updated":"2025-06-10T20:53:17.645833+00:00","context":{"id":"01JXDSWT6D5JFB7QZEZ8WYMRRP","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "29.91",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_ssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"Hyperion SSID"},"last_changed":"2025-06-10T20:53:17.646108+00:00","last_reported":"2025-06-10T20:53:17.646108+00:00","last_updated":"2025-06-10T20:53:17.646108+00:00","context":{"id":"01JXDSWT6E86ECWST8KYMJKHTD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"Hyperion Geocoded Location"},"last_changed":"2025-06-10T20:53:17.646325+00:00","last_reported":"2025-06-10T20:53:17.646325+00:00","last_updated":"2025-06-10T20:53:17.646325+00:00","context":{"id":"01JXDSWT6EPQ236CDJ6X7C6E60","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_last_update_trigger","state":"Launch","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Hyperion Last Update Trigger"},"last_changed":"2025-06-10T20:53:17.646552+00:00","last_reported":"2025-06-10T20:53:17.646552+00:00","last_updated":"2025-06-10T20:53:17.646552+00:00","context":{"id":"01JXDSWT6EMFVN2K47D9ASA32P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Launch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_app_version","state":"2025.5","attributes":{"icon":"mdi:cellphone","friendly_name":"Hyperion App Version"},"last_changed":"2025-06-10T20:53:17.646763+00:00","last_reported":"2025-06-10T20:53:17.646763+00:00","last_updated":"2025-06-10T20:53:17.646763+00:00","context":{"id":"01JXDSWT6EE2KKRRK2Q78AJ4WK","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2025.5",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_location_permission","state":"Not determined","attributes":{"icon":"mdi:map","friendly_name":"Hyperion Location permission"},"last_changed":"2025-06-10T20:53:17.646960+00:00","last_reported":"2025-06-10T20:53:17.646960+00:00","last_updated":"2025-06-10T20:53:17.646960+00:00","context":{"id":"01JXDSWT6EMJHS79XEGRC06QVM","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not determined",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"Hyperion Activity"},"last_changed":"2025-06-10T20:53:17.647163+00:00","last_reported":"2025-06-10T20:53:17.647163+00:00","last_updated":"2025-06-10T20:53:17.647163+00:00","context":{"id":"01JXDSWT6FRRNRZWNH189GDHBT","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Hyperion Average Active Pace"},"last_changed":"2025-06-10T20:53:17.647375+00:00","last_reported":"2025-06-10T20:53:17.647375+00:00","last_updated":"2025-06-10T20:53:17.647375+00:00","context":{"id":"01JXDSWT6F20DA0PE9VCFJRE14","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_distance","state":"340","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Hyperion Distance"},"last_changed":"2025-06-10T20:53:17.647586+00:00","last_reported":"2025-06-10T20:53:17.647586+00:00","last_updated":"2025-06-10T20:53:17.647586+00:00","context":{"id":"01JXDSWT6F39K2M79B787Y0G1A","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 340,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_floors_ascended","state":"7","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Hyperion Floors Ascended"},"last_changed":"2025-06-10T20:53:17.647793+00:00","last_reported":"2025-06-10T20:53:17.647793+00:00","last_updated":"2025-06-10T20:53:17.647793+00:00","context":{"id":"01JXDSWT6FYCMH0C3VQKXVGTAJ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 7,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_floors_descended","state":"5","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Hyperion Floors Descended"},"last_changed":"2025-06-10T20:53:17.648000+00:00","last_reported":"2025-06-10T20:53:17.648000+00:00","last_updated":"2025-06-10T20:53:17.648000+00:00","context":{"id":"01JXDSWT6FSRYBCWK0MAWWWWW5","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 5,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_steps","state":"521","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Hyperion Steps"},"last_changed":"2025-06-10T20:53:17.648198+00:00","last_reported":"2025-06-10T20:53:17.648198+00:00","last_updated":"2025-06-10T20:53:17.648198+00:00","context":{"id":"01JXDSWT6GTRFVKB5TWZR050SG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 521,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_watch_battery_level","state":"65","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-60","friendly_name":"Hyperion Watch Battery Level"},"last_changed":"2025-06-10T20:53:17.648415+00:00","last_reported":"2025-06-10T20:53:17.648415+00:00","last_updated":"2025-06-10T20:53:17.648415+00:00","context":{"id":"01JXDSWT6GGW129NV7WY8MMG1E","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 65,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_watch_battery_state","state":"Not Charging","attributes":{"icon":"mdi:battery-60","friendly_name":"Hyperion Watch Battery State"},"last_changed":"2025-06-10T20:53:17.648633+00:00","last_reported":"2025-06-10T20:53:17.648633+00:00","last_updated":"2025-06-10T20:53:17.648633+00:00","context":{"id":"01JXDSWT6GW34BP3R20RJ09CVZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hyperion_audio_output","state":"Built-in Speaker","attributes":{"icon":"mdi:volume-high","friendly_name":"Hyperion Audio Output"},"last_changed":"2025-06-10T20:53:17.648850+00:00","last_reported":"2025-06-10T20:53:17.648850+00:00","last_updated":"2025-06-10T20:53:17.648850+00:00","context":{"id":"01JXDSWT6G43FF1R6FX0QEE4Z6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Built-in Speaker",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.helios_camera_in_use","state":"off","attributes":{"icon":"mdi:camera-off","friendly_name":"Helios Camera In Use"},"last_changed":"2025-06-10T20:53:17.649760+00:00","last_reported":"2025-06-10T20:53:17.649760+00:00","last_updated":"2025-06-10T20:53:17.649760+00:00","context":{"id":"01JXDSWT6H7BK003CH3AYYVXCB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.helios_audio_input_in_use","state":"off","attributes":{"icon":"mdi:microphone-off","friendly_name":"Helios Audio Input In Use"},"last_changed":"2025-06-10T20:53:17.649971+00:00","last_reported":"2025-06-10T20:53:17.649971+00:00","last_updated":"2025-06-10T20:53:17.649971+00:00","context":{"id":"01JXDSWT6HM9Y3SRQTFJ5CVK6H","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.helios_audio_output_in_use","state":"off","attributes":{"icon":"mdi:volume-low","friendly_name":"Helios Audio Output In Use"},"last_changed":"2025-06-10T20:53:17.650167+00:00","last_reported":"2025-06-10T20:53:17.650167+00:00","last_updated":"2025-06-10T20:53:17.650167+00:00","context":{"id":"01JXDSWT6JS5B586JJ7VFH10SX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.helios_active","state":"off","attributes":{"Fast User Switched":false,"Idle":false,"Locked":false,"Screen Off":false,"Screensaver":false,"Sleeping":false,"Terminating":true,"icon":"mdi:monitor-off","friendly_name":"Helios Active"},"last_changed":"2025-06-10T20:53:17.650346+00:00","last_reported":"2025-06-10T20:53:17.650346+00:00","last_updated":"2025-06-10T20:53:17.650346+00:00","context":{"id":"01JXDSWT6JFTSZR1M5XAK7XSR8","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.helios_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Helios Focus"},"last_changed":"2025-06-10T20:53:17.650520+00:00","last_reported":"2025-06-10T20:53:17.650520+00:00","last_updated":"2025-06-10T20:53:17.650520+00:00","context":{"id":"01JXDSWT6JRKJ9T2KV1JNER5KQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.helios","state":"home","attributes":{"source_type":"gps","battery_level":100,"latitude":53.6061642725285,"longitude":-2.4322396200468233,"gps_accuracy":35,"altitude":0.0,"friendly_name":"Helios"},"last_changed":"2025-06-10T20:53:17.651347+00:00","last_reported":"2025-06-10T20:53:17.651347+00:00","last_updated":"2025-06-10T20:53:17.651347+00:00","context":{"id":"01JXDSWT6KK3WCDRZQADJVMDRH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_internal_battery_level","state":"100","attributes":{"Battery Provides Time Remaining":true,"BatteryHealth":"Check Battery","BatteryHealthCondition":"","Current":0,"Current Capacity":100,"DesignCycleCount":1000,"Hardware Serial Number":"F5D31344PS713QGAW","Is Charged":true,"Is Charging":false,"Is Present":true,"LPM Active":false,"Max Capacity":100,"Name":"InternalBattery-0","Optimized Battery Charging Engaged":false,"Power Source ID":21561443,"Power Source State":"AC Power","Time to Empty":0,"Time to Full Charge":0,"Transport Type":"Internal","Type":"InternalBattery","unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery","friendly_name":"Helios Internal Battery Level"},"last_changed":"2025-06-10T20:53:17.652420+00:00","last_reported":"2025-06-10T20:53:17.652420+00:00","last_updated":"2025-06-10T20:53:17.652420+00:00","context":{"id":"01JXDSWT6M8DTYRM3NJ9RA8MWG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 100,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_internal_battery_state","state":"Full","attributes":{"Battery Provides Time Remaining":true,"BatteryHealth":"Check Battery","BatteryHealthCondition":"","Current":0,"Current Capacity":100,"DesignCycleCount":1000,"Hardware Serial Number":"F5D31344PS713QGAW","Is Charged":true,"Is Charging":false,"Is Present":true,"Low Power Mode":false,"LPM Active":false,"Max Capacity":100,"Name":"InternalBattery-0","Optimized Battery Charging Engaged":false,"Power Source ID":21561443,"Power Source State":"AC Power","Time to Empty":0,"Time to Full Charge":0,"Transport Type":"Internal","Type":"InternalBattery","icon":"mdi:battery","friendly_name":"Helios Internal Battery State"},"last_changed":"2025-06-10T20:53:17.652715+00:00","last_reported":"2025-06-10T20:53:17.652715+00:00","last_updated":"2025-06-10T20:53:17.652715+00:00","context":{"id":"01JXDSWT6M4834FD6F7MYG56BG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Full",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_storage","state":"9.00","attributes":{"Available":"56.86 GB","Available (Important)":"91.13 GB","Available (Opportunistic)":"44.52 GB","Total":"494.38 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Helios Storage"},"last_changed":"2025-06-10T20:53:17.652970+00:00","last_reported":"2025-06-10T20:53:17.652970+00:00","last_updated":"2025-06-10T20:53:17.652970+00:00","context":{"id":"01JXDSWT6MJC17N1C0FW2738EX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "9.00",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_ssid","state":"RabbitNet","attributes":{"icon":"mdi:wifi","friendly_name":"Helios SSID"},"last_changed":"2025-06-10T20:53:17.653176+00:00","last_reported":"2025-06-10T20:53:17.653176+00:00","last_updated":"2025-06-10T20:53:17.653176+00:00","context":{"id":"01JXDSWT6NF25ESYKV9K0EFXXG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "RabbitNet",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_connection_type","state":"Wi-Fi","attributes":{"Hardware Address":"c4:35:d9:93:aa:c3","Name":"Wi-Fi","icon":"mdi:wifi","friendly_name":"Helios Connection Type"},"last_changed":"2025-06-10T20:53:17.653383+00:00","last_reported":"2025-06-10T20:53:17.653383+00:00","last_updated":"2025-06-10T20:53:17.653383+00:00","context":{"id":"01JXDSWT6NBNXC3KSBH487VZ35","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_bssid","state":"5c:62:8b:fb:91:90","attributes":{"icon":"mdi:wifi-star","friendly_name":"Helios BSSID"},"last_changed":"2025-06-10T20:53:17.653591+00:00","last_reported":"2025-06-10T20:53:17.653591+00:00","last_updated":"2025-06-10T20:53:17.653591+00:00","context":{"id":"01JXDSWT6NGWYEMND056P3VYKB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "5c:62:8b:fb:91:90",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_geocoded_location","state":"8 Thornydyke Avenue\nBolton\nEngland\nBL1 7EN\nUnited Kingdom","attributes":{"Administrative Area":"England","Areas Of Interest":"N/A","Country":"United Kingdom","Inland Water":"N/A","ISO Country Code":"GB","Locality":"Bolton","Location":[53.6061642725285,-2.4322396200468233],"Name":"8 Thornydyke Avenue","Ocean":"N/A","Postal Code":"BL1 7EN","Sub Administrative Area":"Greater Manchester","Sub Locality":"Astley Bridge","Sub Thoroughfare":"8","Thoroughfare":"Thornydyke Avenue","Time Zone":"Europe/London","Zones":["Home"],"icon":"mdi:map","friendly_name":"Helios Geocoded Location"},"last_changed":"2025-06-10T20:53:17.653795+00:00","last_reported":"2025-06-10T20:53:17.653795+00:00","last_updated":"2025-06-10T20:53:17.653795+00:00","context":{"id":"01JXDSWT6N693ASD0ZR45W0RKK","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "8 Thornydyke Avenue\nBolton\nEngland\nBL1 7EN\nUnited Kingdom",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_active_camera","state":"Inactive","attributes":{"Active Camera":[],"All Camera":["Hyperion Camera","Hyperion Desk View Camera","FaceTime HD Camera"],"icon":"mdi:camera-off","friendly_name":"Helios Active Camera"},"last_changed":"2025-06-10T20:53:17.654065+00:00","last_reported":"2025-06-10T20:53:17.654065+00:00","last_updated":"2025-06-10T20:53:17.654065+00:00","context":{"id":"01JXDSWT6PH5DV00BCG21EE0V8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Inactive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_active_audio_output","state":"Inactive","attributes":{"Active Audio Output":[],"All Audio Output":["MacBook Air Speakers","Microsoft Teams Audio"],"icon":"mdi:volume-low","friendly_name":"Helios Active Audio Output"},"last_changed":"2025-06-10T20:53:17.654283+00:00","last_reported":"2025-06-10T20:53:17.654283+00:00","last_updated":"2025-06-10T20:53:17.654283+00:00","context":{"id":"01JXDSWT6PPAHW2THWYBHM1X8F","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Inactive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_active_audio_input","state":"Inactive","attributes":{"Active Audio Input":[],"All Audio Input":["Hyperion Microphone","MacBook Air Microphone","Microsoft Teams Audio"],"icon":"mdi:microphone-off","friendly_name":"Helios Active Audio Input"},"last_changed":"2025-06-10T20:53:17.654494+00:00","last_reported":"2025-06-10T20:53:17.654494+00:00","last_updated":"2025-06-10T20:53:17.654494+00:00","context":{"id":"01JXDSWT6PFX660MFJMD2S93WV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Inactive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_displays","state":"1","attributes":{"Display IDs":["37D8832A-2D66-02CA-B9F7-8F30A301B230"],"Display Names":["Built-in Retina Display"],"icon":"mdi:monitor-multiple","friendly_name":"Helios Displays"},"last_changed":"2025-06-10T20:53:17.654712+00:00","last_reported":"2025-06-10T20:53:17.654712+00:00","last_updated":"2025-06-10T20:53:17.654712+00:00","context":{"id":"01JXDSWT6PS4AW261JTV5WE21A","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_primary_display_name","state":"Built-in Retina Display","attributes":{"icon":"mdi:monitor-star","friendly_name":"Helios Primary Display Name"},"last_changed":"2025-06-10T20:53:17.654906+00:00","last_reported":"2025-06-10T20:53:17.654906+00:00","last_updated":"2025-06-10T20:53:17.654906+00:00","context":{"id":"01JXDSWT6PYPRNM5TTA1WQ2J1M","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Built-in Retina Display",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_primary_display_id","state":"37D8832A-2D66-02CA-B9F7-8F30A301B230","attributes":{"icon":"mdi:monitor-star","friendly_name":"Helios Primary Display ID"},"last_changed":"2025-06-10T20:53:17.655107+00:00","last_reported":"2025-06-10T20:53:17.655107+00:00","last_updated":"2025-06-10T20:53:17.655107+00:00","context":{"id":"01JXDSWT6Q3CY0R6GY1KKJ1A3S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "37D8832A-2D66-02CA-B9F7-8F30A301B230",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_frontmost_app","state":"Discord","attributes":{"Bundle Identifier":"com.hnc.Discord","Is Hidden":false,"Launch Date":"2025-06-03T23:14:37Z","Owns Menu Bar":true,"icon":"mdi:traffic-light","friendly_name":"Helios Frontmost App"},"last_changed":"2025-06-10T20:53:17.655324+00:00","last_reported":"2025-06-10T20:53:17.655324+00:00","last_updated":"2025-06-10T20:53:17.655324+00:00","context":{"id":"01JXDSWT6QYJJFR3D9AJJAQXJH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Discord",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_last_update_trigger","state":"Signaled","attributes":{"icon":"mdi:monitor","friendly_name":"Helios Last Update Trigger"},"last_changed":"2025-06-10T20:53:17.655525+00:00","last_reported":"2025-06-10T20:53:17.655525+00:00","last_updated":"2025-06-10T20:53:17.655525+00:00","context":{"id":"01JXDSWT6QNVGG2FGTF5AVGM57","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Signaled",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_app_version","state":"2024.9.2","attributes":{"icon":"mdi:cellphone","friendly_name":"Helios App Version"},"last_changed":"2025-06-10T20:53:17.655732+00:00","last_reported":"2025-06-10T20:53:17.655732+00:00","last_updated":"2025-06-10T20:53:17.655732+00:00","context":{"id":"01JXDSWT6QF3BDJ4C529Y50Z8K","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.9.2",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.helios_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Helios Location permission"},"last_changed":"2025-06-10T20:53:17.655937+00:00","last_reported":"2025-06-10T20:53:17.655937+00:00","last_updated":"2025-06-10T20:53:17.655937+00:00","context":{"id":"01JXDSWT6QN01XESP3SFVXM1KW","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-06-10T21:23:26.129510+00:00"
+    }
+  ]
+}

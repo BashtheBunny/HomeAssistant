@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "homekit.01J9MAQBX8VCDH7NYK6K60CM6X.aids",
+  "data": {
+    "allocations": {
+      "apple_tv.media_player.D4:A3:3D:7E:23:10": 4207917693,
+      "apple_tv.remote.D4:A3:3D:7E:23:10": 2904705611
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "fin",
+        "name": "Fin",
+        "user_id": "58cebce18e7f415eb826fb51d818d8a1",
+        "device_trackers": [
+          "device_tracker.hyperion",
+          "device_tracker.helios"
+        ],
+        "picture": null
+      }
+    ]
+  }
+}

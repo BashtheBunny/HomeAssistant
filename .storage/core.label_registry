@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "core.label_registry",
+  "data": {
+    "labels": [
+      {
+        "color": "cyan",
+        "description": null,
+        "icon": "mdi:router-network-wireless",
+        "label_id": "rabbitnet_down_speed",
+        "name": "RabbitNet Down Speed",
+        "created_at": "2024-10-13T13:25:23.979006+00:00",
+        "modified_at": "2024-10-13T13:25:23.979013+00:00"
+      }
+    ]
+  }
+}
